@@ -1,0 +1,80 @@
+﻿/* Estilos sencillos para la actividad */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f3f6fa;
+  color: #243247;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.encabezado {
+  padding: 32px 20px;
+  background-color: #dcecff;
+  text-align: center;
+}
+
+.encabezado h1 {
+  margin: 0 0 8px;
+  color: #173d70;
+}
+
+.encabezado p {
+  margin: 0;
+}
+
+main {
+  width: min(850px, 92%);
+  margin: 24px auto;
+}
+
+.seccion {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+}
+
+.seccion h2 {
+  margin-top: 0;
+  color: #24568b;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 16px;
+  background-color: #eef2f7;
+  border-radius: 6px;
+  color: #172333;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+kbd {
+  padding: 2px 5px;
+  background-color: #e8edf3;
+  border: 1px solid #cbd4df;
+  border-radius: 4px;
+}
+
+footer {
+  padding: 12px;
+  color: #536274;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .encabezado {
+    padding: 24px 16px;
+  }
+
+  .seccion {
+    padding: 16px;
+  }
+}

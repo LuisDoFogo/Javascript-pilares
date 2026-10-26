@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Introducción a JavaScript</h1>
+    <p>Conceptos básicos, variables y operaciones</p>
+  </header>
+
+  <main>
+    <section class="seccion" aria-labelledby="concepto">
+      <h2 id="concepto">¿Qué es JavaScript?</h2>
+      <p>JavaScript es un lenguaje de programación que permite agregar interactividad a las páginas web. También sirve para realizar operaciones, trabajar con datos y ejecutar instrucciones.</p>
+    </section>
+
+    <section class="seccion" aria-labelledby="actividad-1">
+      <h2 id="actividad-1">Actividad 1: Variables y tipos de datos</h2>
+      <p>Declaramos un nombre y una edad. El operador <code>typeof</code> permite consultar el tipo de dato de cada variable.</p>
+      <pre><code>let nombre = "Juan";
+let edad = 25;
+
+console.log(typeof nombre);
+console.log(typeof edad);</code></pre>
+      <p>En la consola aparecerán <code>string</code> y <code>number</code>.</p>
+    </section>
+
+    <section class="seccion" aria-labelledby="actividad-2">
+      <h2 id="actividad-2">Actividad 2: Operadores aritméticos</h2>
+      <p>Con los números 5 y 3, el programa realiza suma, resta, multiplicación, división y módulo (el residuo de una división).</p>
+      <pre><code>let num1 = 5;
+let num2 = 3;
+
+console.log("Suma:", num1 + num2);
+console.log("Resta:", num1 - num2);
+console.log("Multiplicación:", num1 * num2);
+console.log("División:", num1 / num2);
+console.log("Módulo:", num1 % num2);</code></pre>
+      <p>La división se muestra sin redondear: <code>1.6666666666666667</code>.</p>
+    </section>
+
+    <section class="seccion" aria-labelledby="actividad-3">
+      <h2 id="actividad-3">Actividad 3: Sumar dos números</h2>
+      <p>Para ejecutar este ejemplo manualmente, abre la página en el navegador, presiona <kbd>F12</kbd>, selecciona la pestaña <strong>Console</strong>, copia el código y pégalo allí. Presiona <kbd>Enter</kbd>; el resultado será <code>8</code>.</p>
+      <pre><code>let num1 = 5;
+let num2 = 3;
+console.log(num1 + num2);</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Actividad escolar de introducción a JavaScript</p>
+  </footer>
+</body>
+</html>

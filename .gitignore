@@ -1,0 +1,7 @@
+﻿# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dependencias y registros (si se agregan en el futuro)
+node_modules/
+*.log
